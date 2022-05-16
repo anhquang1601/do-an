@@ -1,0 +1,154 @@
+.manageStudent {
+  width: 100%;
+  height: 100%;
+}
+.searchStudent {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+}
+.inputSearch {
+  height: 30px;
+  width: 200px;
+}
+.btnSearch {
+  height: 30px;
+  width: 100px;
+}
+.manage_headers {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-left: 30px;
+}
+.manageStudent_search {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 10px;
+
+}
+.label {
+  width: 100px;
+}
+.inputSelect {
+  width: 200px;
+}
+.table {
+  padding-top: 10px;
+}
+.addStudent {
+  background-color: rgb(29, 185, 84);
+  color: white;
+  position: absolute;
+  right: 30px;
+  border-radius: 4px;
+}
+/* .btnSave .ant-btn:hover, */
+.btnSave.ant-btn:focus {
+  color: white;
+  border-color: rgb(29, 185, 84);
+  background-color: rgb(29, 185, 84);
+}
+
+.addStudent.ant-btn:not([disabled]):hover {
+  color: white;
+  border-color: rgb(29, 185, 84);
+  background-color: rgb(29, 185, 84);
+}
+
+.btnSave.ant-btn:not([disabled]):hover {
+  color: white;
+  border-color: rgb(29, 185, 84);
+  background-color: rgb(29, 185, 84);
+}
+.btnSave .ant-btn {
+  color: white;
+ /*  border-color: rgb(29, 185, 84); */
+  background-color: rgb(29, 185, 84); 
+}
+.btnCancel {
+  margin-right: 10px;
+  border-radius: 4px;
+}
+.btnCancel .ant-btn{
+  background-color: white 
+}
+.btnCancel .ant-btn {
+  background-color: white !important;
+}
+.addStudent_modal {
+  overflow-y: scroll;
+  height: auto;
+}
+.addStudent_row {
+  display: flex;
+}
+.input_modal {
+  height: 40px;
+  width: 150px;
+}
+.addStudent_title {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10px;
+  height: 40px;
+}
+.btnSave {
+  background-color: rgb(29, 185, 84);
+  width: 70px;
+  color: white !important;
+  margin-right: 25px;
+  border-radius: 4px;
+}
+.addStudent_row {
+  display: flex;
+  flex-direction: row;
+}
+
+.rowItem {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+.rowItemText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+.input_modalText {
+  width: 220px;
+  height: 40px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+.addStudent_rowTow {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.input_modalCommune {
+  height: 40px;
+  width: 500px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+.addStudent_rowThree {
+  display: flex;
+  flex-direction: row;
+}
+.input_modalTextAdrress {
+  width: 500px;
+  height: 40px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+.manageStudent_table{
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}

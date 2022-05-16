@@ -1,0 +1,42 @@
+
+.contractBody{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 300px;
+}
+.contract_title{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.contractBody{
+    width: 100%;
+}
+.contact_input{
+    height: 40x;
+    display: flex;
+    flex-direction: row;
+}
+.contract_table{
+    height: 40px;
+    width: 100%;
+}
+.input_contract{
+    width: 150px;
+    border-radius: 4px;
+}
+.btn_addComtract{
+    position: absolute;
+    right: 30px;
+}
+.contract_title{
+    margin-top: 10px;
+}
+.Select_addContract.ant-select-show-arrow{
+    width: 352px !important
+}
+.btn_Search.ant-btn:hover {
+    background: rgb(29, 185, 84);
+}

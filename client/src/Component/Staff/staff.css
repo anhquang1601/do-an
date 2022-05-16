@@ -1,0 +1,75 @@
+.body_staff{
+    width: 100%;
+    height: 600px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.search_staff{
+    height: 30px;
+    width: 250px;
+    border-radius: 4px;
+}
+.btn_Search{
+    position: absolute;
+    right: 30px;
+    border-radius: 4px;
+    background-color: rgb(29, 185, 84);
+}
+.body_addStudent{
+    width: 100%;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.title_staff{
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.btnSave{
+    right:30px;
+    position: absolute;
+}
+.btnCancel{
+    right: 130px;
+    position: absolute;
+}
+.col_6{
+    margin-left: 5%;
+}
+.body_addStaff{
+    height: auto;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.body_add{
+    margin-top: 20px;
+    width: 75%;
+}
+.input_body{
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 4px;
+}
+.ant-upload-select-picture{
+    position: absolute;
+    bottom: 179px;
+    right: 107px;
+}
+.ant-upload-list-item-name{
+    display: none !important;
+}
+.anticon-delete{
+   /*  display: none !important; */
+}
+.ant-upload-list-item-list-type-picture{
+    position: absolute;
+    right: -104px;
+}
+.ant-upload-list-item-thumbnail{
+    height: 80px !important;
+    width: 80px !important;
+}

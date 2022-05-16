@@ -1,0 +1,42 @@
+.full-height{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeRegister{
+    height: 100%;
+
+}
+.sigin{
+    width: 30%;
+    height: 70%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    box-shadow: black 0px 0px 50px 0px;
+    border-radius: 4px;
+}
+.sigin_input{
+    width: 70%;
+}
+.sigin .ant-form-horizontal{
+    width: 100%;
+}
+.sigin .ant-form-item{
+    justify-content: center;
+}
+.sigin_input{
+    height: 40px;
+    border-radius: 4px !important;
+}
+.refresh{
+    border-radius: 4px;
+    border-width: 0px !important;
+    background-color: aliceblue !important;
+}

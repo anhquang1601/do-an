@@ -1,0 +1,77 @@
+.billRoom_input{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.create_bill{
+    width: "100%";
+    
+}
+.btn_saveStaff .btn_ant{
+    background-color: rgb(29, 185, 84) !important;
+    
+}
+.btn_saveStaff{
+    position: absolute;
+    right: 30px;
+    background-color: rgb(29, 185, 84) !important;
+    border-radius: 4px;
+}
+.ant-table-pagination-right{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+}
+.ant-pagination-item-active {
+    background-color: #e8f8ee !important;
+    border: 1px solid #e8f8ee !important;
+    border-radius: 8px !important;
+    color: #1DB954 !important;
+}
+.ant-pagination-item-active a {
+    color: #1db954 !important;
+}
+.ant-pagination-item {
+    width: 40px;
+    height: 40px;
+    padding: 8px 12px;
+    border: 0px !important;
+}
+.ant-pagination-item a {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+.ant-pagination-prev{
+    height: 40px;
+    width: 40px;
+    border: 0px !important;
+    border-radius: 4px !important;
+}
+.ant-pagination-prev .ant-pagination-item-link{
+    border: 0px !important;
+    border-radius: 4px !important;
+}
+.ant-pagination-next .ant-pagination-item-link{
+    border: 0px !important;
+    border-radius: 4px !important;
+}
+.ant-pagination-next{
+    height: 40px;
+    width: 40px;
+}
+.ant-select-selector{
+    height: 40px
+}
+.ant-form-item-required{
+    width: 120px;
+}
+.dataPicker{
+    width: 350px
+}
+.ant-btn-primary{
+    background-color: #1DB954 !important;;
+}
